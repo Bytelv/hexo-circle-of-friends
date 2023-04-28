@@ -32,9 +32,7 @@ LINK: [
 SETTINGS_FRIENDS_LINKS: {
     enable: true,
     json_api: "https://raw.githubusercontent.com/Bytelv/friends/output/friends.json",
-    list: [
-        
-    ]
+    list: []
 }
 
 # get links from gitee
