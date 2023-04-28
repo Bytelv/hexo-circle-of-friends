@@ -1,7 +1,7 @@
 name: update-friends-posts
 
 on:
-  push:
+  push: 
     branches:
       - main
   schedule:
