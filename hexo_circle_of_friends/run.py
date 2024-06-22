@@ -81,8 +81,8 @@ def settings_friends_json_parse(json_file, user_conf):
                             if suffix:
                                 friends.append(suffix)
                             user_conf["SETTINGS_FRIENDS_LINKS"]["list"].append(friends)
-        except:
-            logger.warning(f"json_api进阶格式解析错误")
+        except Exception as e:
+            logger.warning(f"json_api进阶格式解析错误: {e}")
     else:
         logger.warning(f"json_api格式错误：无法判定数据形式")
 
