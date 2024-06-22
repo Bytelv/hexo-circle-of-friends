@@ -20,5 +20,5 @@ MAX_POSTS_NUM: 50
 OUTDATE_CLEAN: 100
 SETTINGS_FRIENDS_LINKS:
   enable: true
-  json_api: https://cdn.jsdelivr.net/gh/Bytelv/friends@output/friends.json
+  json_api: https://qexo.lvbyte.top/pub/friends/
   list: []
