@@ -38,6 +38,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
+      uses: gautamkrishnar/keepalive-workflow@2.0.10
 
     - name: Set up Python
       uses: actions/setup-python@main
@@ -118,6 +119,3 @@ jobs:
         rebase: 'true'
         name: github-actions[bot]
         email: github-actions@noreply.github.com
-
-    - name: keep alive
-      uses: gautamkrishnar/keepalive-workflow@2.0.10 # keep workflows from being suspended when no commit for a long time
