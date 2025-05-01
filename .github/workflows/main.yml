@@ -38,7 +38,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
-      uses: gautamkrishnar/keepalive-workflow@2.0.10
+      
 
     - name: Set up Python
       uses: actions/setup-python@main
